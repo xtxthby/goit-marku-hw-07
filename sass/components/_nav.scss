@@ -1,0 +1,55 @@
+.nav {
+    display: flex;
+    align-items: center;
+    &__logo {
+        margin-right: 93px;
+
+        color: $primary-text-color;
+    
+        font-family: $web-font;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+    }
+    &__web {
+        color: $accent-color;
+
+        font-family: $web-font;
+        font-size: 26px;
+        line-height: 1.19;
+    }
+}
+.menu-nav {
+    display: flex;
+
+    &__item:not(:first-child) {
+        margin-left: 50px;
+    }
+    
+    &__studio,
+    &__portfolio,
+    &__contact {
+        position: relative;
+        display: block;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    
+        color: $title-text-color;
+    
+        font-weight: 500;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        
+        transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+.menu-contact {
+    display: flex;
+    margin-left: auto;
+
+    &__item:not(:first-child) {
+        margin-left: 50px;
+    }
+}

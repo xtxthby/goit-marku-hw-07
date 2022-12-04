@@ -1,0 +1,12 @@
+body {
+    background: $primary-bg-color;
+
+    font-family: $main-font;
+    font-size: $main-size;
+    letter-spacing: $main-spacing;
+}
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
