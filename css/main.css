@@ -327,6 +327,8 @@ img {
 }
 
 .team {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background: #F5F4FA;
 }
 .team__container {
@@ -416,4 +418,182 @@ img {
 }
 .icon__svg {
   fill: currentColor;
+}
+
+.client {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.client__container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.client__title {
+  margin-bottom: 50px;
+  text-align: center;
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.logo__border:not(:first-child) {
+  margin-left: 30px;
+}
+.logo__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 170px;
+  height: 92px;
+  color: #AFB1B8;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  -webkit-transition-property: color, border;
+  transition-property: color, border;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.logo__icon {
+  fill: currentColor;
+}
+.logo__container:hover, .logo__container:focus {
+  color: #2196F3;
+  border: 1px solid #2196F3;
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #2F303A;
+}
+.footer__container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.blok-footer:not(:first-child) {
+  margin-left: 70px;
+}
+
+.blok-footer__logo {
+  width: 145px;
+  color: #FFFFFF;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19px;
+}
+
+.blok-footer__web {
+  color: #2196F3;
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.address {
+  margin-top: 20px;
+  width: 231px;
+}
+.address__menu:not(:first-child) {
+  margin-top: 9px;
+}
+.address__maps {
+  color: #FFFFFF;
+  font-style: normal;
+  line-height: 1.71;
+}
+.address__info, .address__telefon {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  line-height: 1.71;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.address__info:hover, .address__telefon:hover, .address__info:focus, .address__telefon:focus {
+  color: #2196F3;
+}
+
+.blok-footer__text {
+  margin-bottom: 20px;
+  color: #FFFFFF;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: uppercase;
+}
+
+.icon-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.icon-footer:not(:first-child) {
+  margin-left: 10px;
+}
+
+.icon-footer__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #FFFFFF;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-footer__link:hover,
+.icon-footer__link:focus {
+  background-color: #2196F3;
+}
+
+.icon-footer__svg {
+  fill: currentColor;
+}
+
+.form {
+  margin-left: 93px;
+  display: inline-block;
 }/*# sourceMappingURL=main.css.map */
