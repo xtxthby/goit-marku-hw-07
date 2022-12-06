@@ -257,6 +257,7 @@ img {
           align-items: center;
   height: 120px;
   margin-bottom: 30px;
+  border-radius: 4px;
   background-color: #F5F4FA;
 }
 .benefits__title {
@@ -318,7 +319,7 @@ img {
   position: absolute;
   bottom: 27px;
   width: 100%;
-  color: var(--text-color);
+  color: #FFFFFF;
   font-weight: 700;
   line-height: 1.15;
   text-align: center;
@@ -623,6 +624,7 @@ img {
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: #2F303A;
+  color: #FFFFFF;
 }
 .telegram__input::-webkit-input-placeholder {
   font-size: 16px;
@@ -951,6 +953,10 @@ img {
   background-color: #188CE8;
 }
 
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .portfolio__container {
   width: 1200px;
   padding-left: 15px;
