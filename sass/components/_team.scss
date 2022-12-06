@@ -2,7 +2,7 @@
     padding-top: 94px;
     padding-bottom: 94px;
 
-    background: $second-bg-color;
+    background: $secondBgColor;
     
     &__container {
         width: 1200px;
@@ -14,7 +14,7 @@
         margin-bottom: 50px;
         text-align: center;
     
-        color: $title-text-color;
+        color: $titleTextColor;
     
         font-weight: 700;
         font-size: 36px;
@@ -28,7 +28,7 @@
         margin-left: 30px;    
     }
     &__specialist {
-        background: $primary-bg-color;
+        background: $primaryBgColor;
 
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -42,7 +42,7 @@
     }
     &__name {
     
-        color: $title-text-color;
+        color: $titleTextColor;
     
         font-weight: 500;
         font-size: 16px;
@@ -52,7 +52,7 @@
     &__profession {
         margin-top: 10px;
     
-        color: $list-text-color;
+        color: $listTextColor;
     
         font-size: 16px;
         line-height: 1.19;
@@ -74,7 +74,7 @@
         width: 44px;
         height: 44px;
         border-radius: 50%;
-        color: $icona-client-color;
+        color: $iconaClientColor;
     
         transition-property: color;
         transition-duration: 250ms;
@@ -82,8 +82,8 @@
     }
     &__link:hover,
     &__link:focus {
-        background-color: $accent-color;
-        color: $text-color;
+        background-color: $accentColor;
+        color: $textColor;
     }
     &__svg {
         fill: currentColor;

@@ -30,7 +30,7 @@
     height: 581px;
     padding: 40px;
 
-    background-color: $primary-bg-color;
+    background-color: $primaryBgColor;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -43,7 +43,7 @@
         font-size: 20px;
         line-height: 1.15;
         text-align: center;
-        color: $title-text-color;
+        color: $titleTextColor;
     }
 }
 .close {
@@ -59,7 +59,7 @@
     height: 30px; 
     border: 1px solid rgba(0, 0, 0, 0.1);
 
-    background-color: $text-color;
+    background-color: $textColor;
     cursor: pointer;
 
     transition: color;
@@ -67,7 +67,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
     &__svg {
-        color: $primary-text-color;
+        color: $primaryTextColor;
 
         transition: color;
         transition-duration: 250ms;
@@ -75,7 +75,7 @@
     }
     &__svg:hover,
     &__svg:focus {
-        fill: $accent-color;
+        fill: $accentColor;
     }
 }
 .modal-blok {
@@ -88,7 +88,7 @@
         font-size: 12px;
         line-height: 1.16;
         letter-spacing: 0.01em;
-        color: $list-text-color;
+        color: $listTextColor;
     }
 
     &__input {
@@ -104,13 +104,13 @@
         position: absolute;
         bottom: 11px;
         left: 12px;
-        color: $title-text-color;
+        color: $titleTextColor;
         transition: color;
     }
     &__label:focus-within > &__input,
     &__label:focus-within > &__icon {
-        border-color: $button-bg-color;
-        fill: $button-bg-color;
+        border-color: $buttonBgColor;
+        fill: $buttonBgColor;
         outline: none;
     }
 }
@@ -123,7 +123,7 @@
         font-size: 12px;
         line-height: 1.16;
         letter-spacing: 0.01em;
-        color: $list-text-color;
+        color: $listTextColor;
     }
     &__text {
         width: 448px;
@@ -135,8 +135,8 @@
         resize: none;
     }
     &__label:focus-within > &__text {
-        border-color: $button-bg-color;
-        fill: $button-bg-color;
+        border-color: $buttonBgColor;
+        fill: $buttonBgColor;
         outline: none;
     }
     &__text::placeholder {
@@ -155,7 +155,7 @@
     
         line-height: 1.71;
         
-        color: $list-text-color;
+        color: $listTextColor;
     }
     &__input {
         position: absolute;
@@ -169,11 +169,11 @@
     }
     &__svg {
         margin-right: 8px;
-        border: 2px solid $title-text-color;
+        border: 2px solid $titleTextColor;
         border-radius: 2px;
     }
     &__input:checked + &__svg {
-        background-color: $accent-color;
+        background-color: $accentColor;
         border: transparent;
         background-size: contain;
         background-origin: border-box;
@@ -182,8 +182,8 @@
         margin-left: 3px;
         line-height: 1.71;
       
-        text-decoration: underline $accent-color;
-        color: $accent-color;
+        text-decoration: underline $accentColor;
+        color: $accentColor;
       }
 }
 .modal-button {
@@ -199,7 +199,7 @@
         border-radius: 4px;
         cursor: pointer;
     
-        background-color: $accent-color;
+        background-color: $accentColor;
         color: $text-color;
     
         font-weight: 700;
@@ -215,6 +215,6 @@
     }
     &__send:hover,
     &__send:focus {
-        background-color: $button-bg-color;
+        background-color: $buttonBgColor;
     }
 }

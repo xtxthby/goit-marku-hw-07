@@ -4,17 +4,17 @@
     &__logo {
         margin-right: 93px;
 
-        color: $primary-text-color;
+        color: $primaryTextColor;
     
-        font-family: $web-font;
+        font-family: $webFont;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
     }
     &__web {
-        color: $accent-color;
+        color: $accentColor;
 
-        font-family: $web-font;
+        font-family: $webFont;
         font-size: 26px;
         line-height: 1.19;
     }
@@ -34,7 +34,7 @@
         padding-top: 32px;
         padding-bottom: 32px;
 
-        color: $title-text-color;
+        color: $titleTextColor;
 
         font-weight: 500;
         line-height: 1.14;
@@ -51,10 +51,10 @@
     &__portfolio:focus,
     &__contact:hover,
     &__contact:focus {
-       color: $accent-color;
+       color: $accentColor;
     }
     &__studio.current {
-        color: $accent-color;
+        color: $accentColor;
     }
     &__studio.current::after, 
     &__portfolio.current::after,
@@ -67,7 +67,7 @@
         left: 0;
         bottom: 0;
     
-        background-color: $accent-color;
+        background-color: $accentColor;
         border-radius: 2px;
     }
 }

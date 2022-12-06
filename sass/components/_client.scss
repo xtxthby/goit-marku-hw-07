@@ -12,7 +12,7 @@
         margin-bottom: 50px;
         text-align: center;
     
-        color: $title-text-color;
+        color: $titleTextColor;
     
         font-weight: 700;
         font-size: 36px;
@@ -32,8 +32,8 @@
         width: 170px;
         height: 92px;
     
-        color: $icona-client-color;
-        border: 1px solid $icona-client-color;
+        color: $iconaClientColor;
+        border: 1px solid $iconaClientColor;
         border-radius: 4px;
     
         transition-property: color, border;
@@ -46,7 +46,7 @@
     }
     &__container:hover,
     &__container:focus {
-        color: $accent-color;
-        border: 1px solid $accent-color;
+        color: $accentColor;
+        border: 1px solid $accentColor;
     }
 }
